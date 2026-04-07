@@ -1,0 +1,16 @@
+{
+  "name": "agent-harness",
+  "owner": {
+    "name": "Louay"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace"
+  },
+  "plugins": [
+    {
+      "name": "agent-harness",
+      "source": "./plugins/agent-harness",
+      "description": "Personal harness with custom skills and hooks for use across projects"
+    }
+  ]
+}
