@@ -8,10 +8,15 @@ Personal Claude Code plugin for Louay Akkad, providing custom skills and hooks f
 /plugin install agent-harness@agent-harness
 ```
 
-## Structure
+## Skills
 
-- `skills/` — Custom skills (model-invoked and user-invoked)
-- `hooks/` — Hook definitions
+| Skill | Type | Description |
+|-------|------|-------------|
+| `api-documentation-style` | Model-invoked | Enforces consistent style when writing or reviewing API documentation strings |
+
+## Hooks
+
+_None yet._
 
 ## License
 

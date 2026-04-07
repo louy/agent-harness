@@ -9,6 +9,10 @@ This is a Claude Code plugin marketplace owned by Louay Akkad. It hosts the `age
   - `skills/` — Custom skills
   - `hooks/` — Hook definitions
 
+## Maintenance Rules
+
+- Whenever a skill, hook, or other plugin component is added, removed, or modified, update the plugin's `README.md` to reflect the change (skills table, hooks section, etc.)
+
 ## License
 
 BSL 1.1
