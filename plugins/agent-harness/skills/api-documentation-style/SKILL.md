@@ -1,6 +1,6 @@
 ---
 name: api-documentation-style
-description: Use this skill when writing, reviewing, or modifying documentation strings (docstrings, JSDoc, GraphQL descriptions, OpenAPI descriptions, etc.) that are publicly accessible via an API to a consumer. This includes REST endpoints, GraphQL types/fields/mutations/queries, SDK methods, and any other public-facing API surface.
+description: Use this skill when writing, reviewing, or modifying API documentation strings — JSDoc, docstrings, GraphQL descriptions, OpenAPI/Swagger descriptions, or any public-facing API docs. Applies to REST endpoints, GraphQL types/fields/mutations/queries, SDK methods, and any other consumer-facing API surface.
 ---
 
 # API Documentation Style Guide
