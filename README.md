@@ -24,6 +24,16 @@ Install the plugin:
 |--------|-------------|
 | [agent-harness](plugins/agent-harness/) | Custom skills and hooks for use across projects |
 
+### Skills
+
+| Skill | Plugin | Type | Description |
+|-------|--------|------|-------------|
+| `api-documentation-style` | agent-harness | Model-invoked | Enforces consistent style when writing or reviewing API documentation strings |
+
+### Hooks
+
+_None yet._
+
 ## License
 
 [BSL 1.1](LICENSE)
