@@ -24,8 +24,19 @@ These rules MUST be followed whenever writing or reviewing documentation strings
 ## Documentation Content
 
 - Every type and field MUST be documented unless its purpose is extremely obvious.
+  - Bad: `id` left undocumented on a type with multiple ID fields (ambiguous without context)
+  - Good: `id` left undocumented on `User` where it's the only identifier
+  - Good: `legacyId` — "The identifier from the v1 system, preserved for migration compatibility."
 - Documentation MUST NOT repeat the type or field name. Describe what it represents or does, not what it is called.
+  - Bad: `email` — "The user's email." (repeats the field name)
+  - Bad: `createdAt` — "The created at timestamp." (restates the name as words)
+  - Good: `email` — "The primary address used for account notifications and login."
+  - Good: `createdAt` — "When the account was first registered."
 - Documentation MUST explain the thing it is documenting — its purpose, behavior, or meaning.
+  - Bad: `isActive` — "Whether the user is active." (circular — doesn't explain what "active" means)
+  - Bad: `retryCount` — "Number of retries." (just restates the name, no useful context)
+  - Good: `isActive` — "Whether the account can authenticate and access resources. Set to false upon deactivation or after 90 days of inactivity."
+  - Good: `retryCount` — "How many times delivery has been re-attempted after an initial failure."
 
 ## Prohibited Content
 
