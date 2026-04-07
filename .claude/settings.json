@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "agent-harness": {
+      "source": {
+        "source": "directory",
+        "path": "./"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "agent-harness@agent-harness": true
+  }
+}
