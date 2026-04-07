@@ -1,10 +1,8 @@
 # agent-harness
 
-Personal Claude Code plugin providing custom skills and hooks for use across projects.
+Personal Claude Code plugin for Louay Akkad, providing custom skills and hooks for use across projects.
 
-## Usage
-
-Install via:
+## Installation
 
 ```
 /plugin install agent-harness@agent-harness
@@ -14,3 +12,7 @@ Install via:
 
 - `skills/` — Custom skills (model-invoked and user-invoked)
 - `hooks/` — Hook definitions
+
+## License
+
+[BSL 1.1](../../LICENSE)

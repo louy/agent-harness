@@ -1,19 +1,29 @@
-# Agent Harness Plugin Marketplace
+# Agent Harness
 
-A personal Claude Code plugin marketplace.
+Personal plugin marketplace for Louay Akkad, to be used with Claude Code.
 
-## Installation
+This marketplace hosts the **agent-harness** plugin — a personal harness providing custom skills and hooks for use across projects.
+
+## Setup
+
+Add the marketplace:
 
 ```
 /plugin marketplace add louy/agent-harness
 ```
 
-## Plugins
-
-- **agent-harness** — Personal harness with custom skills and hooks for use across projects
-
-## Installing a Plugin
+Install the plugin:
 
 ```
 /plugin install agent-harness@agent-harness
 ```
+
+## Plugins
+
+| Plugin | Description |
+|--------|-------------|
+| [agent-harness](plugins/agent-harness/) | Custom skills and hooks for use across projects |
+
+## License
+
+[BSL 1.1](LICENSE)
